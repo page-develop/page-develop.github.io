@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Weekend London Islamic School (WLIS) – Empowering children aged 4–13 with comprehensive Arabic, Islamic, and Quran studies in London, Ontario." />
+  <title>Weekend London Islamic School (WLIS)</title>
+
+  <!-- Favicon (browser tab icon) -->
+  <link rel="icon" href="logo.png" type="image/png" />
+  <link rel="apple-touch-icon" href="logo.png" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Playfair+Display:wght@600;700&family=Scheherazade+New:wght@400;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ===================== NAVIGATION ===================== -->
+  <header class="navbar" id="navbar" role="banner">
+    <div class="container navbar__inner">
+      <a href="#home" class="navbar__brand" aria-label="WLIS Home">
+        <img src="logo.png" alt="London Muslim Mosque logo" class="navbar__logo" width="44" height="44" />
+        <span class="navbar__brand-text">
+          <span class="navbar__brand-short">WLIS</span>
+          <span class="navbar__brand-full">Weekend London Islamic School</span>
+        </span>
+      </a>
+
+      <!-- Desktop Nav -->
+      <nav class="navbar__links" aria-label="Primary navigation">
+        <a href="#home" class="nav-link">Home</a>
+        <a href="#about" class="nav-link">About &amp; Levels</a>
+        <a href="#locations" class="nav-link">Locations</a>
+        <a href="#fees" class="nav-link">Fees</a>
+        <a href="#contact" class="nav-link">Contact</a>
+        <a href="https://forms.gle/crkczPxMNKzfSGfVA" target="_blank" rel="noopener noreferrer" class="btn btn--gold navbar__cta">Register Now</a>
+      </nav>
+
+      <!-- Mobile Hamburger -->
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="mobile-menu">
+        <span class="hamburger__bar"></span>
+        <span class="hamburger__bar"></span>
+        <span class="hamburger__bar"></span>
+      </button>
+    </div>
+
+    <!-- Mobile Menu -->
+    <nav class="mobile-menu" id="mobile-menu" aria-label="Mobile navigation" aria-hidden="true">
+      <a href="#home" class="mobile-link">Home</a>
+      <a href="#about" class="mobile-link">About &amp; Levels</a>
+      <a href="#locations" class="mobile-link">Locations</a>
+      <a href="#fees" class="mobile-link">Fees</a>
+      <a href="#contact" class="mobile-link">Contact</a>
+      <a href="https://forms.gle/crkczPxMNKzfSGfVA" target="_blank" rel="noopener noreferrer" class="btn btn--gold mobile-cta">Register Now</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ===================== HERO ===================== -->
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="hero__bg-pattern" aria-hidden="true"></div>
+      <div class="container hero__content">
+
+        <h1 class="hero__title" id="hero-title">
+          Weekend London<br />
+          <span class="hero__title-accent">Islamic School</span>
+        </h1>
+        <p class="hero__subtitle" lang="ar" dir="rtl">ٱلسَّلَامُ عَلَيْكُمْ وَرَحْمَةُ ٱللَّٰهِ وَبَرَكَاتُهُ</p>
+        <p class="hero__body">
+          Empowering children aged <strong>4–13</strong> with comprehensive Arabic, Islamic, and Quran studies.
+          Choose between <strong>Saturday or Sunday</strong> tracks designed to nurture your child's spiritual and academic growth.
+        </p>
+
+        <div class="hero__actions">
+          <a href="https://forms.gle/crkczPxMNKzfSGfVA" target="_blank" rel="noopener noreferrer" class="btn btn--gold btn--large hero__cta">
+            Register Now &rarr;
+          </a>
+          <a href="#about" class="btn btn--outline btn--large">Learn More</a>
+        </div>
+      </div>
+
+      <div class="hero__scroll-indicator" aria-hidden="true">
+        <span></span>
+      </div>
+    </section>
+
+    <!-- ===================== ABOUT & ACADEMIC LEVELS ===================== -->
+    <section class="section about" id="about" aria-labelledby="about-title">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__label">Our Program</span>
+          <h2 class="section__title" id="about-title">About &amp; Academic Levels</h2>
+          <p class="section__subtitle">A structured, progressive curriculum designed to grow with your child from age 4 through 13.</p>
+        </div>
+
+        <div class="about__grid">
+
+          <!-- Core Curriculum Card -->
+          <article class="about-card about-card--featured">
+            <div class="about-card__icon" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="32" height="32"><path d="M12 3L1 9l11 6 9-4.91V17h2V9L12 3zM5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82z"/></svg>
+            </div>
+            <h3 class="about-card__title">Core Curriculum</h3>
+            <p class="about-card__text">A three-pillar curriculum covering <strong>Arabic language</strong>, <strong>Islamic Studies</strong>, and <strong>Quran Studies</strong> — thoughtfully designed for children aged <strong>4 to 13 years old</strong>.</p>
+            <ul class="about-card__list">
+              <li>Arabic Reading &amp; Writing</li>
+              <li>Islamic Studies &amp; Fiqh</li>
+              <li>Quran Recitation &amp; Tajweed</li>
+            </ul>
+          </article>
+
+          <!-- Progressive Track Card -->
+          <article class="about-card">
+            <div class="about-card__icon" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="32" height="32"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-7 3c1.93 0 3.5 1.57 3.5 3.5S13.93 13 12 13s-3.5-1.57-3.5-3.5S10.07 6 12 6zm7 13H5v-.23c0-.62.28-1.2.76-1.58C7.47 15.82 9.64 15 12 15s4.53.82 6.24 2.19c.48.38.76.97.76 1.58V19z"/></svg>
+            </div>
+            <h3 class="about-card__title">Progressive Track</h3>
+            <p class="about-card__text">Students follow a clear, structured learning path that advances their knowledge year over year.</p>
+            <div class="level-track" aria-label="Academic level progression">
+              <div class="level-track__step">
+                <span class="level-badge level-badge--start">Beginners</span>
+              </div>
+              <div class="level-track__arrow" aria-hidden="true">&#8594;</div>
+              <div class="level-track__step">
+                <span class="level-badge">Primary 1</span>
+              </div>
+              <div class="level-track__arrow" aria-hidden="true">&#8594;</div>
+              <div class="level-track__step">
+                <span class="level-badge">Primary 2</span>
+              </div>
+              <div class="level-track__arrow" aria-hidden="true">&#8594;</div>
+              <div class="level-track__step">
+                <span class="level-badge level-badge--end">Levels 1–7</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Placement Card -->
+          <article class="about-card">
+            <div class="about-card__icon" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="32" height="32"><path d="M9 11.75c-.69 0-1.25.56-1.25 1.25s.56 1.25 1.25 1.25 1.25-.56 1.25-1.25-.56-1.25-1.25-1.25zm6 0c-.69 0-1.25.56-1.25 1.25s.56 1.25 1.25 1.25 1.25-.56 1.25-1.25-.56-1.25-1.25-1.25zM12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8 0-.29.02-.58.05-.86 2.36-1.05 4.23-2.98 5.21-5.37C11.07 8.33 14.05 10 17.42 10c.78 0 1.53-.09 2.25-.26.21.71.33 1.47.33 2.26 0 4.41-3.59 8-8 8z"/></svg>
+            </div>
+            <h3 class="about-card__title">Flexible Placement</h3>
+            <p class="about-card__text">New students may enroll at <strong>any level</strong> based on an entry-level placement test conducted prior to enrolment — ensuring every child starts exactly where they belong.</p>
+          </article>
+
+          <!-- Specialized Course Card -->
+          <article class="about-card about-card--accent">
+            <div class="about-card__icon" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="32" height="32"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm0 10.99h7c-.53 4.12-3.28 7.79-7 8.94V12H5V6.3l7-3.11v8.8z"/></svg>
+            </div>
+            <h3 class="about-card__title">Specialized Course <span class="about-card__badge">Ages 10–13</span></h3>
+            <p class="about-card__text">A tailored, dedicated course specifically designed for students aged <strong>10–13</strong> who are starting at the beginner level — bridging the gap with age-appropriate content and pacing.</p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== LOCATIONS ===================== -->
+    <section class="section locations" id="locations" aria-labelledby="locations-title">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__label">Where We Are</span>
+          <h2 class="section__title" id="locations-title">School Locations</h2>
+          <p class="section__subtitle">Classes are held at two convenient locations across London, Ontario.</p>
+        </div>
+
+        <div class="locations__grid">
+
+          <!-- Location 1 -->
+          <article class="location-card" aria-labelledby="loc1-title">
+            <div class="location-card__header">
+              <div class="location-card__icon" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="28" height="28"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+              </div>
+              <h3 class="location-card__title" id="loc1-title">LMM Woods</h3>
+            </div>
+            <address class="location-card__address">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="16" height="16" aria-hidden="true"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/></svg>
+              125 Woodward Avenue
+            </address>
+            <div class="location-card__levels">
+              <h4 class="location-card__levels-title">Classes Offered</h4>
+              <div class="location-card__tags">
+                <span class="level-tag">Beginners</span>
+                <span class="level-tag">Primary 1</span>
+                <span class="level-tag">Primary 2</span>
+                <span class="level-tag">Level 1</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Location 2 -->
+          <article class="location-card location-card--featured" aria-labelledby="loc2-title">
+            <div class="location-card__header">
+              <div class="location-card__icon" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="28" height="28"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+              </div>
+              <h3 class="location-card__title" id="loc2-title">London Muslim Mosque</h3>
+            </div>
+            <address class="location-card__address">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="16" height="16" aria-hidden="true"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/></svg>
+              151 Oxford Street West
+            </address>
+            <div class="location-card__levels">
+              <h4 class="location-card__levels-title">Classes Offered</h4>
+              <div class="location-card__tags">
+                <span class="level-tag level-tag--gold">QN</span>
+                <span class="level-tag level-tag--gold">Level 2</span>
+                <span class="level-tag level-tag--gold">Level 3</span>
+                <span class="level-tag level-tag--gold">Level 4</span>
+                <span class="level-tag level-tag--gold">Level 5</span>
+                <span class="level-tag level-tag--gold">Levels 6/7</span>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== FEES ===================== -->
+    <section class="section fees" id="fees" aria-labelledby="fees-title">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__label">Tuition &amp; Fees</span>
+          <h2 class="section__title" id="fees-title">Fee Schedule 2026–2027</h2>
+          <p class="section__subtitle">Transparent, family-friendly pricing with flexible payment options.</p>
+        </div>
+
+        <!-- Fees Urgency -->
+        <div class="fees__urgency" role="alert">
+          <span class="fees__urgency-icon" aria-hidden="true">⚠️</span>
+          <p>Student Registration is open temporarily with <strong>limited spot availability</strong>. First-come, first-served basis.</p>
+        </div>
+
+        <!-- Fees Notice -->
+        <div class="fees__notice" role="note">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="20" height="20" aria-hidden="true"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/></svg>
+          <p>Registration fee is due upon registration (can be added to the monthly payment or paid at the weekend school office). Supplies and books fees are withdrawn one time in September 2026. For full payments, supply/book fees must be submitted via <strong>post-dated cheque for September 2026</strong>.</p>
+        </div>
+
+        <!-- Tab Controls -->
+        <div class="fees__tabs" role="tablist" aria-label="Payment plan options">
+          <button class="fees__tab fees__tab--active" id="tab-monthly" role="tab" aria-selected="true" aria-controls="panel-monthly" data-tab="monthly">
+            <span class="fees__tab-icon" aria-hidden="true">📅</span>
+            Pay Monthly
+          </button>
+          <button class="fees__tab" id="tab-full" role="tab" aria-selected="false" aria-controls="panel-full" data-tab="full">
+            <span class="fees__tab-icon" aria-hidden="true">💰</span>
+            Pay In Full
+          </button>
+        </div>
+
+        <!-- Tab Panel: Monthly -->
+        <div class="fees__panel fees__panel--active" id="panel-monthly" role="tabpanel" aria-labelledby="tab-monthly">
+          <p class="fees__panel-desc">The first automatic withdrawal takes place in <strong>September</strong> for supplies and books. Remaining withdrawals from <strong>October to June</strong> are for tuition.</p>
+          <div class="table-wrapper">
+            <table class="fee-table" aria-label="Monthly payment schedule">
+              <thead>
+                <tr>
+                  <th scope="col">Students Registered</th>
+                  <th scope="col">September Withdrawal<br /><small>(Supplies/Books)</small></th>
+                  <th scope="col">October – June Monthly<br /><small>(Tuition)</small></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td data-label="Students Registered"><strong>1 student</strong></td>
+                  <td data-label="September Withdrawal">$100.00</td>
+                  <td data-label="Monthly Tuition" class="fee-highlight">$90.00</td>
+                </tr>
+                <tr>
+                  <td data-label="Students Registered"><strong>2 students</strong></td>
+                  <td data-label="September Withdrawal">$200.00</td>
+                  <td data-label="Monthly Tuition" class="fee-highlight">$170.00</td>
+                </tr>
+                <tr>
+                  <td data-label="Students Registered"><strong>3 students</strong></td>
+                  <td data-label="September Withdrawal">$300.00</td>
+                  <td data-label="Monthly Tuition" class="fee-highlight">$240.00</td>
+                </tr>
+                <tr>
+                  <td data-label="Students Registered"><strong>4 students</strong></td>
+                  <td data-label="September Withdrawal">$400.00</td>
+                  <td data-label="Monthly Tuition" class="fee-highlight">$300.00</td>
+                </tr>
+                <tr>
+                  <td data-label="Students Registered"><strong>5 students</strong></td>
+                  <td data-label="September Withdrawal">$500.00</td>
+                  <td data-label="Monthly Tuition" class="fee-highlight">$350.00</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- Tab Panel: Pay In Full -->
+        <div class="fees__panel" id="panel-full" role="tabpanel" aria-labelledby="tab-full" aria-hidden="true">
+          <p class="fees__panel-desc">WLIS Yearly Fee Schedule for the <strong>2026–2027</strong> academic year. Save by paying all fees upfront in one payment.</p>
+          <div class="table-wrapper">
+            <table class="fee-table" aria-label="Full payment yearly schedule">
+              <thead>
+                <tr>
+                  <th scope="col">Students Registered</th>
+                  <th scope="col">Registration Fee</th>
+                  <th scope="col">Supplies / Books Fee</th>
+                  <th scope="col">Yearly Tuition</th>
+                  <th scope="col" class="fee-total-col">Total (Pay In Full)</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td data-label="Students Registered"><strong>1 student</strong></td>
+                  <td data-label="Registration Fee">$20.00</td>
+                  <td data-label="Supplies/Books Fee">$100.00</td>
+                  <td data-label="Yearly Tuition">$810.00</td>
+                  <td data-label="Total" class="fee-highlight fee-total">$930.00</td>
+                </tr>
+                <tr>
+                  <td data-label="Students Registered"><strong>2 students</strong></td>
+                  <td data-label="Registration Fee">$35.00</td>
+                  <td data-label="Supplies/Books Fee">$200.00</td>
+                  <td data-label="Yearly Tuition">$1,530.00</td>
+                  <td data-label="Total" class="fee-highlight fee-total">$1,765.50</td>
+                </tr>
+                <tr>
+                  <td data-label="Students Registered"><strong>3 students</strong></td>
+                  <td data-label="Registration Fee">$50.00</td>
+                  <td data-label="Supplies/Books Fee">$300.00</td>
+                  <td data-label="Yearly Tuition">$2,160.00</td>
+                  <td data-label="Total" class="fee-highlight fee-total">$2,510.00</td>
+                </tr>
+                <tr>
+                  <td data-label="Students Registered"><strong>4 students</strong></td>
+                  <td data-label="Registration Fee">$65.00</td>
+                  <td data-label="Supplies/Books Fee">$400.00</td>
+                  <td data-label="Yearly Tuition">$2,700.00</td>
+                  <td data-label="Total" class="fee-highlight fee-total">$3,165.00</td>
+                </tr>
+                <tr>
+                  <td data-label="Students Registered"><strong>5 students</strong></td>
+                  <td data-label="Registration Fee">$80.00</td>
+                  <td data-label="Supplies/Books Fee">$500.00</td>
+                  <td data-label="Yearly Tuition">$3,150.00</td>
+                  <td data-label="Total" class="fee-highlight fee-total">$3,730.00</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ===================== REGISTRATION CTA ===================== -->
+    <section class="section cta-section" id="contact" aria-labelledby="cta-title">
+      <div class="container">
+        <div class="cta-box">
+          <div class="cta-box__decoration" aria-hidden="true"></div>
+          <span class="cta-box__label">Limited Spots Available</span>
+          <h2 class="cta-box__title" id="cta-title">Secure Your Child's Spot Today</h2>
+          <p class="cta-box__text">
+            Registration is strictly <strong>first-come, first-served</strong> based on level availability.<br />
+            Don't miss this opportunity to give your child the gift of Islamic knowledge.
+          </p>
+          <a href="https://forms.gle/crkczPxMNKzfSGfVA" target="_blank" rel="noopener noreferrer" class="btn btn--gold btn--large cta-box__btn">
+            Complete Registration Form &rarr;
+          </a>
+          <div class="cta-box__contact">
+            <p>For registration inquiries, please contact us:</p>
+            <div class="cta-box__contact-links">
+              <a href="mailto:wlisadmin@londonmosque.ca" class="cta-box__email">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="18" height="18" aria-hidden="true"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+                wlisadmin@londonmosque.ca
+              </a>
+              <a href="tel:+15194399451" class="cta-box__email">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="18" height="18" aria-hidden="true"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+                +1 519-439-9451
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer" role="contentinfo">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <span class="footer__brand-name">Weekend London Islamic School</span>
+        <span class="footer__brand-abbr">(WLIS)</span>
+      </div>
+      <nav class="footer__nav" aria-label="Footer navigation">
+        <a href="#home" class="footer__link">Home</a>
+        <a href="#about" class="footer__link">About</a>
+        <a href="#locations" class="footer__link">Locations</a>
+        <a href="#fees" class="footer__link">Fees</a>
+        <a href="#contact" class="footer__link">Contact</a>
+      </nav>
+      <p class="footer__copy">&copy; 2026 Weekend London Islamic School. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
